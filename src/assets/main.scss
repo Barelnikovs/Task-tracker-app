@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #0c3c5e;
+}
+.btn {
+  width: max-content;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 18px;
+  font-size: 16px;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.primary {
+  background-color: #0c8825;
+  color: white;
+}
+.danger {
+  background-color: #dc3545;
+  color: white;
+}
+.secondary {
+  background-color: #6c757d;
+  color: white;
+}
+.default {
+  background-color: white;
+  color: #0c8825;
+  border: 1px solid #0c8825;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  & > h2 {
+    margin: 15px 0;
+    color: #ffffff;
+    font-weight: 300;
+  }
+}
+hr {
+  border: none;
+  border-top: 1px solid rgba(128, 128, 128, 0.5); /* Серый цвет + 50% прозрачности */
+}
